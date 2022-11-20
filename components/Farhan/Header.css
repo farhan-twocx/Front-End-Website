@@ -20,6 +20,40 @@ button.nav-button {
     border: none;
     color: white;
 }
+.nav_icons {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+}
+.icon{
+    width: 26px;
+}
+
+.icon1 {
+    display: flex;
+    align-items: center;
+    width: 160px;
+    justify-content: space-evenly;
+}
+.icon2 {
+    display: flex;
+    width: 160px;
+    justify-content: space-around;
+    align-items: center;
+}
+img.checkbox_icon {
+    width: 16px;
+}
+.nav_right {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
 
     /* Header */
 
@@ -43,7 +77,34 @@ ul.ul {
     text-decoration: none;
     color: black;
 }
-h2.header-text {
+h3.header-text {
     padding-left: 80px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.landing_image {
+    width: 30%;
+    height: 500px;
+    margin-top: 34px;
+    padding-left: 35px;
+}
+.body-portion {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.body-text {
+    padding-left: 100px;
+    line-height: 40px;
+}
+h1 {
+    color: orangered;
+    font-family: emoji;
+}
+button {
+    width: 23%;
+    color: gray;
+    padding: 13px;
+    border-color: darkgray;
+    border-style: none;
 }
